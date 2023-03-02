@@ -20,7 +20,6 @@ colorProcessor.colorMerge = function(colorAa, colorBa) {
     }
 
     var merged = (colorA.charAt(0) * (16 ** 1) + colorA.charAt(1) * (16 ** 0) + colorB.charAt(0) * (16 ** 1) + colorB.charAt(1) * (16 ** 0)) / 2;
-    var mergedColor;
 
-    return mergedColor;
+    return merged;
 }
